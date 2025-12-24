@@ -270,9 +270,14 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({ students, me
                
                <div className="space-y-4 flex-1 relative z-10">
                   <ScoreRow label="Toán" score={student.math} color="bg-violet-500" />
-                  <ScoreRow label="Tiếng Việt" score={student.literature} color="bg-rose-500" />
+                  <ScoreRow label="Ngữ văn" score={student.literature} color="bg-rose-500" />
                   <ScoreRow label="Tiếng Anh" score={student.english} color="bg-amber-500" />
-                  <ScoreRow label="Khoa học" score={student.science} color="bg-emerald-500" />
+                  <ScoreRow label="GDCD" score={student.science} color="bg-emerald-500" />
+                  <ScoreRow label="KHTN" score={student.science} color="bg-emerald-500" />
+                 <ScoreRow label="KHXH" score={student.science} color="bg-emerald-500" />
+                 <ScoreRow label="TIN" score={student.science} color="bg-emerald-500" />
+                 <ScoreRow label="Nghệ thuật" score={student.science} color="bg-emerald-500" />
+                 <ScoreRow label="GDTC" score={student.science} color="bg-emerald-500" />
                </div>
 
                <div className="mt-auto pt-4 border-t border-zinc-100">
