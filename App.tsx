@@ -90,12 +90,12 @@ export default function App() {
         const idxMath = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("toán")) : 2;
         const idxLit = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("văn")) : 3;
         const idxEng = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("anh")) : 4;
-        const idxSci = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("GDCD")) : 5;
-        const idxSci = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("KHTN")) : 6;
-        const idxSci = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("KHXH")) : 7;
-        const idxSci = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("Tin")) : 8;
+        const idxGdcd = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("GDCD")) : 5;
+        const idxKhtn = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("KHTN")) : 6;
+        const idxKhxh = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("KHXH")) : 7;
+        const idxTin = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("Tin")) : 8;
         const idxHist = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("NT") || h.includes("Nghệ thuật")) : 9;
-        const idxHist = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("GDTC") || h.includes("Thể chất")) : 10;
+        const idxPe = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("GDTC") || h.includes("Thể chất")) : 10;
         const idxAvg = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("tb chung") || h.includes("average")) : 11;
         const idxStrength = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("điểm mạnh")) : 12;
         const idxChallenge = headerIndex !== -1 ? headerRow.findIndex(h => h.includes("hạn chế")) : 13;
