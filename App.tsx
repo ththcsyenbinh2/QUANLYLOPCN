@@ -142,8 +142,8 @@ export default function App() {
   const handleDownloadTemplate = () => {
     const headers = ["STT", "Họ và tên", "Toán", "Văn", "Anh", "GDCD", "KHTN", "KHXH", "Tin", "Nghệ thuật", "GDTC", "TB Chung", "Điểm mạnh", "Hạn chế", "Mục tiêu tuần", "Link Ảnh (Avatar)"];
     const sampleData = [
-      [1, "Nguyễn Văn A", 8, 7, 9, 8, 8.5, 8.1, "Đ", "Đ", "Đ", "Hòa đồng", "Hay nói chuyện", "Hoàn thành bài tập", ""],
-      [2, "Trần Thị B", 9, 9, 8.5, 9, 9, 8.9, "Đ", "Đ", "Đ", "Chăm chỉ", "Rụt rè", "Phát biểu 2 lần", ""]
+      [1, "Nguyễn Văn A", 8, 7, 9, 8, 8.5, 8.1, 8, "Đ", "Đ", "Hòa đồng", "Hay nói chuyện", "Hoàn thành bài tập", ""],
+      [2, "Trần Thị B", 9, 9, 8.5, 9, 9, 8.9, 7, "Đ", "Đ", "Chăm chỉ", "Rụt rè", "Phát biểu 2 lần", ""]
     ];
     
     const wb = XLSX.utils.book_new();
